@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.añadir{
+    background-color: rgb(58, 184, 58);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contendorTerjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    border: solid 1px;
+    width: 250px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.textoParrafo{
+    text-align: center;
+}
+.quitar{
+    background-color: red;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
